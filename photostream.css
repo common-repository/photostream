@@ -1,0 +1,12 @@
+#photostream a img {
+	filter:alpha(opacity=45);
+	-moz-opacity:0.45;
+	-khtml-opacity: 0.45;
+	opacity: 0.45;
+}
+#photostream a img.visible {
+	filter:alpha(opacity=100);
+	-moz-opacity:1;
+	-khtml-opacity: 1;
+	opacity: 1;
+}
